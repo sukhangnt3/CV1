@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sử Trạch Khang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header> 
+            <div class="logo">
+                <a href="#">Sử Trạch Khang</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">EDUCATION</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <h1>Sử Trạch Khang</h1>
+            <h2> FullStack - Software Engineer</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/khang.su.9/"target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://github.com/sukhangnt2"target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About me SECCION -->
+    <section id="sobremi" class="sobremi">
+        <class="contenido-seccion">
+            <h2>About Me</h2>
+            <div style="text-align: center; margin-top: 20px;">
+                <img src="ThongTin\prof.png" alt="sukhang" style="max-width:600px; width:100%;">
+            </div>
+            <p>Hello, my name is <B><u>Sử Trạch Khang.</u></B>  I am a software developer and web programmer. And I have the following skills: Web Developer | SQL Alchemy | Python | React.js | REST APIs | Flask | Analysis capacity | Data Management | I am passionate about developing and creating innovative solutions.</p>
+        </br>
+            <p>Computer Development Engineer with experience in support and solutions in CISCO Networks. I have built applications with React.js and Python. Using HTML, CSS, Ajax, Bootstrap and JavaScript. I have experience in Management, administrative tasks, Marketing, and Customer Service.</p>
+            </br>
+                
+            <div class="fila">
+                <!-- personal data  -->
+                <div class="col">
+                    <div class="col"></div>
+                    <h3>Personal Information</h3>
+                    <ul>
+                        <li>
+                            <strong>Date of Birth</strong>
+                            08-04-2004
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            <a href="tel:+84">+84 833404928</a> (click to call)
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            <a href="sukhangnt2@gmail.com" class="pv-contact-info__contact-link link-without-visited-state t-14" target="_blank" rel="noopener noreferrer"> sukhangnt2@gmail.com </a>(click to email)
+                        </li>
+                        <li>
+                            <strong>Address</strong>
+                            Ninh Thuận
+                        </li>
+                        <li>
+                            <strong>Possition</strong>
+                            <span>Web Content Manager - FullStack Web Developer</span>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Interest</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC</br>Windows</br>LINUX</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-running"></i>
+                            <span>SPORTS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS/READ</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PHOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <h3>Programming Languages:</h3></br>
+
+                <table style="width:25%"class="center">
+                  <tr>
+                  <ul>
+                    <td><li>Java</li></td>
+                    <td><li>Python</li></td>
+                  </ul>
+                  </tr>
+                    <tr>
+                    <ul>
+                    <td><li>HTML</li></td>
+                    <td><li>CSS</li></td>
+                    </ul>
+                  </tr>
+                      <tr>
+                      <ul>
+                    <td><li>JavaScript</li></td>
+                    <td><li>ReactJS</li></td>
+                    </ul>
+                  </tr>
+                     <tr>
+                   <ul>
+                    <td><li>Bootstrap</li></td>
+                    <td><li>Context</li></td>
+                   </ul>
+                  </tr>
+                    <tr>
+                    <ul>
+                    <td><li>Flux</li></td>
+                    <td><li>Hooks</li></td>
+                </ul>
+                  </tr>
+                  
+                </table>
+            </br></br>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>REACT-JS LIBRARIES</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CMS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>EDUCATION</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+
+                    <div class="item izq">
+                        <h4>Full-Stack Software Develoment</h4>
+                        <span class="casa">NTT Academy</span>
+                        <span class="fecha">2022</span>
+                        <p>Full-Stack development course.
+                        </br>Academic Grid:
+                        </br></br>
+                           <ul>
+                            <li>HMTL+CSS</li>
+                            <li>Bootstrap</li>
+                            <li>JavaScript</li>
+                            <li>ReactJS</li> 
+                            <li>Context</li>
+                            <li>Flux</li> 
+                            <li>Hooks</li>
+                            <li>Python</li>
+                            <li>Flask</li>
+                            <li>REST API's</li>
+                            <li>SQLalchemy</li>
+                            <li>Algorithms</li> </ul></br>
+                            
+                            
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- SECCION CONTACT -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACT</h2>
+            <div class="fila">
+                <!-- Formulario -->
+            <div class="col">
+                <form action="https://formsubmit.co/el/jojule" method="POST"> <!-- el/jojule se puede remover y poner el correo donde quiera que lleguen las respuestas -->
+                    <input type="hidden" name="_subject" value="Nuevo Correo!">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="text" placeholder="Name" required>
+                    <input type="text" placeholder="Phone">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" placeholder="Concern" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <input type="file" name="attachment" accept="image/png, image/jpeg">
+                    <button onclick="alert('Email sent! I will get back to as soon as possible!');">
+                        Send <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                    
+                </form>
+
+                </div>
+                <!-- Map -->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3920.5018754789867!2d106.740774!3d10.695718999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDQxJzQ0LjYiTiAxMDbCsDQ0JzI2LjgiRQ!5e0!3m2!1svi!2s!4v1723795454058!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                        <ul>
+                            <li> 
+                            </li>
+                            <li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/khang.su.9/"target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://github.com/sukhangnt2"target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
